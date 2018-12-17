@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,10 +12,10 @@
 		DDDFA1E321C328530026B4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDFA1E121C328530026B4BA /* Main.storyboard */; };
 		DDDFA1E521C328550026B4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDFA1E421C328550026B4BA /* Assets.xcassets */; };
 		DDDFA1E821C328550026B4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDFA1E621C328550026B4BA /* LaunchScreen.storyboard */; };
-		DDDFA1F021C333A10026B4BA /* bubble-sound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DDDFA1EF21C333A10026B4BA /* bubble-sound.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1CBAA421C7523400992C89 /* bubble-sound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "bubble-sound.mp4"; path = "../../../Documents/02 My Photo/bubble-sound.mp4"; sourceTree = "<group>"; };
 		DDDFA1DA21C328530026B4BA /* aquaman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aquaman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDFA1DD21C328530026B4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDDFA1DF21C328530026B4BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +23,6 @@
 		DDDFA1E421C328550026B4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDDFA1E721C328550026B4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDDFA1E921C328550026B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDDFA1EF21C333A10026B4BA /* bubble-sound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "bubble-sound.mp4"; path = "../../02 My Photo/bubble-sound.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +55,7 @@
 		DDDFA1DC21C328530026B4BA /* aquaman */ = {
 			isa = PBXGroup;
 			children = (
-				DDDFA1EF21C333A10026B4BA /* bubble-sound.mp4 */,
+				DD1CBAA421C7523400992C89 /* bubble-sound.mp4 */,
 				DDDFA1DD21C328530026B4BA /* AppDelegate.swift */,
 				DDDFA1DF21C328530026B4BA /* ViewController.swift */,
 				DDDFA1E121C328530026B4BA /* Main.storyboard */,
@@ -103,7 +102,7 @@
 				};
 			};
 			buildConfigurationList = DDDFA1D521C328530026B4BA /* Build configuration list for PBXProject "aquaman" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDFA1E821C328550026B4BA /* LaunchScreen.storyboard in Resources */,
-				DDDFA1F021C333A10026B4BA /* bubble-sound.mp4 in Resources */,
 				DDDFA1E521C328550026B4BA /* Assets.xcassets in Resources */,
 				DDDFA1E321C328530026B4BA /* Main.storyboard in Resources */,
 			);
